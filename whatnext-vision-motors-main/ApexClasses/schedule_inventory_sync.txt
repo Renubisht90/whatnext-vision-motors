@@ -1,2 +1,0 @@
-String cronExp = '0 0 0 * * ?';
-System.schedule('Daily Inventory Sync', cronExp, new InventorySyncBatchScheduler());

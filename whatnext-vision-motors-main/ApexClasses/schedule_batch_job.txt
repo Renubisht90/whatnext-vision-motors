@@ -1,3 +1,0 @@
-String cronExp = '0 0 12 * * ?'; 
-
-System.schedule('Daily Vehicle Order Processing', cronExp, new VehicleOrderBatchScheduler());
